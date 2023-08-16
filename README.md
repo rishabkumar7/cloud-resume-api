@@ -31,15 +31,16 @@ Test Everything: Ensure your API works as expected and the GitHub Actions deploy
 Ensure all your code is in a GitHub repository.
 Make sure your README has detailed instructions on how to run and test your API.
 Write a blog post sharing the things you learned during building this project.
+
 Once you're ready to submit, create a pull request to this repository.
 In your pull request, provide a summary of what you've done and any additional features or functionalities you've added.
 
 ## Completion Criteria 🏆
 
-Functionality: Does the API work? Does the deployment succeed via GitHub Actions?
-Code Quality: Is the code clean, well-organized, and documented?
-Innovation: Did you add any extra features or use any unique methods?
+- Functionality: Does the API work? Does the deployment succeed via GitHub Actions?
+- Code Quality: Is the code clean, well-organized, and documented?
+- Innovation: Did you add any extra features or use any unique methods?
 
 ## Acknowledgements 👏
 
-Thank you to everyone who decides to participate. Community challenges like this are a great way to learn, improve, and demonstrate your skills. We can't wait to see what you build!
+Thank you to everyone who decides to participate. Community challenges like this are a great way to learn, improve, and demonstrate your skills. I can't wait to see what you build!
