@@ -33,7 +33,10 @@ Make sure your README has detailed instructions on how to run and test your API.
 Write a blog post sharing the things you learned during building this project.
 
 Once you're ready to submit, create a pull request to this repository.
+Add your name, github repo URL and the resume API URL to the table in `submissions.md` file.
 In your pull request, provide a summary of what you've done and any additional features or functionalities you've added.
+
+All the submission can be found [here](/submissions.md).
 
 ## Completion Criteria 🏆
 
