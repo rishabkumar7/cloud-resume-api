@@ -1,6 +1,8 @@
 # Cloud Resume API with AWS
 
-AWS Lambda Resume API Challenge
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Faws-resume-api.pages.dev&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
+## AWS Lambda Resume API Challenge
 
 Welcome to the AWS Lambda Resume API Challenge. A project where you will have the opportunity to build and deploy a serverless API using AWS Lambda and DynamoDB, integrated with GitHub Actions. The primary goal? Construct an API that can serve resume data in JSON format.
 
