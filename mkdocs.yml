@@ -5,14 +5,15 @@ theme:
   # Fonts
 
   font:
-    text: Noto Sans
+    text: Roboto
   
   # icons
   icon:
+    logo: material/apple-icloud
     repo: fontawesome/brands/git-alt 
   
   palette:
-    - primary: indigo
+    #- primary: indigo
 
     # Palette toggle for light mode
     - scheme: default
@@ -28,5 +29,6 @@ theme:
 
 # Repo details
 repo_url: https://github.com/rishabkumar7/aws-resume-api
+repo_name: rishabkumar7/aws-resume-api
 
 # Plugins
