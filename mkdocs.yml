@@ -1,0 +1,32 @@
+site_name: Cloud Resume API
+
+theme:
+  name: material
+  # Fonts
+
+  font:
+    text: Noto Sans
+  
+  # icons
+  icon:
+    repo: fontawesome/brands/git-alt 
+  
+  palette:
+    - primary: indigo
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+# Repo details
+repo_url: https://github.com/rishabkumar7/aws-resume-api
+
+# Plugins
