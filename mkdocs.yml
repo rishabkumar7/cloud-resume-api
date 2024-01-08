@@ -10,6 +10,7 @@ theme:
   # icons
   icon:
     logo: material/apple-icloud
+    favicon: images/cloud-resume-api-favicon.png
     repo: fontawesome/brands/git-alt 
   
   palette:
