@@ -1,4 +1,4 @@
-site_name: Cloud Resume API
+site_name: Cloud Resume API Challenge
 
 theme:
   name: material
@@ -7,6 +7,8 @@ theme:
   font:
     text: Roboto
   
+  features:
+    - toc.follow
   # icons
   icon:
     logo: material/apple-icloud
@@ -29,7 +31,7 @@ theme:
         name: Switch to light mode
 
 # Repo details
-repo_url: https://github.com/rishabkumar7/aws-resume-api
-repo_name: rishabkumar7/aws-resume-api
+repo_url: https://github.com/rishabkumar7/cloud-resume-api
+repo_name: rishabkumar7/cloud-resume-api
 
 # Plugins
