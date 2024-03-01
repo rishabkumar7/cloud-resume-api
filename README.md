@@ -19,9 +19,11 @@ Your task is to create a Serverless function that fetches resume data stored in 
 
 The Challenge now support all three major cloud providers:
 
-- [AWS](/aws)
-- [Azure](/azure)
-- [GCP](/gcp)
+| Cloud    | Challenge |
+| -------- | ------- |
+| [AWS](https://cloudresumeapi.dev/aws/)    | [x]   |
+| [Azure](https://cloudresumeapi.dev/azure) | [x]   |
+| [GCP](https://cloudresumeapi.dev/gcp)     | [x]   |
 
 ## Submission/Showcase 📥
 
@@ -39,3 +41,13 @@ Thank you to everyone who decides to participate. Community challenges like this
 
 - Twitter: [@rishabincloud](https://twitter.com/rishabincloud)
 - GitHub: [@rishabkumar7](https://github.com/rishabkumar7)
+
+## Star History
+
+<a href="https://star-history.com/#rishabkumar7/cloud-resume-api&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rishabkumar7/cloud-resume-api&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rishabkumar7/cloud-resume-api&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rishabkumar7/cloud-resume-api&type=Date" />
+  </picture>
+</a>
