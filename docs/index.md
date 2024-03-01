@@ -1,7 +1,7 @@
 # Cloud Resume API Challenge
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcloudresumeapi.dev&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-![GitHub Repo stars](https://img.shields.io/github/stars/rishabkumar7/aws-resume-api)
+![GitHub Repo stars](https://img.shields.io/github/stars/rishabkumar7/cloud-resume-api)
 
 Welcome to the Cloud Resume API Challenge. A project where you will have the opportunity to build and deploy a serverless API using different Cloud providers (of your choice), integrated with GitHub Actions for CI/CD. The primary goal? Construct an API that can serve resume data in JSON format.
 
