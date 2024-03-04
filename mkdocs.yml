@@ -7,12 +7,15 @@ theme:
   font:
     text: Roboto
   
+  favicon: assets/images/cloud-resume-api-favicon.ico
+  
   features:
     - toc.follow
+    - navigation.footer
+
   # icons
   icon:
     logo: material/apple-icloud
-    favicon: images/cloud-resume-api-favicon.png
     repo: fontawesome/brands/git-alt 
   
   palette:
@@ -33,5 +36,17 @@ theme:
 # Repo details
 repo_url: https://github.com/rishabkumar7/cloud-resume-api
 repo_name: rishabkumar7/cloud-resume-api
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/rishabkumar7
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/rishabincloud
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@rishabincloud
+
+copyright: Copyright &copy; 2023 - 2024 Rishab Kumar
 
 # Plugins
