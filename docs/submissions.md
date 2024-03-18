@@ -15,7 +15,7 @@ This is the place to add your own Cloud Resume API project!
 
 | Name         | Resume API URL | GitHub Repo |
 | ------------ | -------------- | ----------- |
-|  |  |  |
+| CityHallin | https://api.cityhallin.com/v1/resume?name=cityhallin | https://github.com/CityHallin/cloud_resume_api_challenge |
 
 ## GCP
 
