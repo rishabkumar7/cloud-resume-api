@@ -20,4 +20,5 @@ This is the place to add your own Cloud Resume API project!
 ## GCP
 
 | Name         | Resume API URL | GitHub Repo |
-|  |  |  |
+| ------------ | -------------- | ----------- |
+| Dominik Jaro | https://europe-west2-cloud-resume-api-418008.cloudfunctions.net/cloudresumeapi-1  | https://github.com/dom-j/GCP-cloud-resume-api  |
