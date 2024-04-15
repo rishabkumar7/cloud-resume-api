@@ -11,6 +11,8 @@ Welcome to the GCP Resume API Challenge. A project where you will have the oppor
 
 Your task is to create an Cloud Function that fetches resume data stored in Firestore and return it in JSON format. To level up the challenge, integrate GitHub Actions to automatically deploy updates to your Cloud Function whenever you push changes to your git repository.
 
+<iframe width="800" height="450" src="https://www.youtube.com/embed/9jkzzDHRkZU?si=bq1WdC1y13ERgEt-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Key Requirements
 
 - Firestore Table: Set up a table named `Resumes` containing sample resume data.

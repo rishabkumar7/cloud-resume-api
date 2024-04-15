@@ -11,6 +11,8 @@ Welcome to the AWS Lambda Resume API Challenge. A project where you will have th
 
 Your task is to create a Lambda function that fetches resume data stored in DynamoDB and return it in JSON format. To level up the challenge, integrate GitHub Actions to automatically deploy updates to your Lambda function whenever you push to your repository.
 
+<iframe width="800" height="450" src="https://www.youtube.com/embed/-pKrT7Ix3G0?si=Lmm1SkGtEQF7_MxT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Key Requirements
 
 - DynamoDB Table: Set up a table named Resumes containing sample resume data.

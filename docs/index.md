@@ -8,6 +8,7 @@ Welcome to the Cloud Resume API Challenge. A project where you will have the opp
 ## Challenge Objective 🎯
 
 Your task is to create a Serverless function that fetches resume data stored in a NoSQL Database and return it in JSON format. To level up the challenge, integrate GitHub Actions to automatically deploy updates to your Cloud Serverless function whenever you push to your repository.
+If you are video person, you can check [this out.](https://youtu.be/iZq8aaGMpjM?si=O4g8Cm6l3urZA1tI)
 
 ## Key Requirements
 
