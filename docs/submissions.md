@@ -25,3 +25,4 @@ This is the place to add your own Cloud Resume API project!
 | ------------ | -------------- | ----------- |
 | Dominik Jaro | https://europe-west2-cloud-resume-api-418008.cloudfunctions.net/cloudresumeapi-1  | https://github.com/dom-j/GCP-cloud-resume-api  |
 | Jeremy C | https://us-central1-cloud-resume-api-423120.cloudfunctions.net/function-1  | https://github.com/JQCVSC/Cloud-Resume-API  |
+| Damien Burks | https://us-central1-dsb-innovation-hub.cloudfunctions.net/cloud-resume-api | https://github.com/damienjburks/cloud-resume-challenge |
