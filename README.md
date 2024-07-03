@@ -51,3 +51,8 @@ Thank you to everyone who decides to participate. Community challenges like this
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rishabkumar7/cloud-resume-api&type=Date" />
   </picture>
 </a>
+
+## Contributors so far
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
