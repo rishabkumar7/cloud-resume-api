@@ -51,3 +51,86 @@ Thank you to everyone who decides to participate. Community challenges like this
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rishabkumar7/cloud-resume-api&type=Date" />
   </picture>
 </a>
+
+## Contributors so far
+
+<!-- readme: contributors -start -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/rishabkumar7">
+                    <img src="https://avatars.githubusercontent.com/u/45825464?v=4" width="100;" alt="rishabkumar7"/>
+                    <br />
+                    <sub><b>Rishab Kumar</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/dominikjaro">
+                    <img src="https://avatars.githubusercontent.com/u/158752660?v=4" width="100;" alt="dominikjaro"/>
+                    <br />
+                    <sub><b>Dominik Jaro</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/heinhtetwin">
+                    <img src="https://avatars.githubusercontent.com/u/48096774?v=4" width="100;" alt="heinhtetwin"/>
+                    <br />
+                    <sub><b>Hein Htet Win</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/JQCVSC">
+                    <img src="https://avatars.githubusercontent.com/u/65506340?v=4" width="100;" alt="JQCVSC"/>
+                    <br />
+                    <sub><b>JQCVSC</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/damienjburks">
+                    <img src="https://avatars.githubusercontent.com/u/20100558?v=4" width="100;" alt="damienjburks"/>
+                    <br />
+                    <sub><b>Damien Burks</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Sushant1209">
+                    <img src="https://avatars.githubusercontent.com/u/92586894?v=4" width="100;" alt="Sushant1209"/>
+                    <br />
+                    <sub><b>Sushant Bagul</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/vikramnayyarcs">
+                    <img src="https://avatars.githubusercontent.com/u/66060875?v=4" width="100;" alt="vikramnayyarcs"/>
+                    <br />
+                    <sub><b>Vikram</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/jv199768">
+                    <img src="https://avatars.githubusercontent.com/u/154536624?v=4" width="100;" alt="jv199768"/>
+                    <br />
+                    <sub><b>Jaivir Baweja</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/pohwj">
+                    <img src="https://avatars.githubusercontent.com/u/118417467?v=4" width="100;" alt="pohwj"/>
+                    <br />
+                    <sub><b>Wenjie Poh</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/TomiwaAribisala-git">
+                    <img src="https://avatars.githubusercontent.com/u/109365443?v=4" width="100;" alt="TomiwaAribisala-git"/>
+                    <br />
+                    <sub><b>Tomiwa </b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
+<!-- readme: contributors -end -->
