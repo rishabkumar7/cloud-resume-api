@@ -66,6 +66,13 @@ Thank you to everyone who decides to participate. Community challenges like this
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/SuryenduB">
+                    <img src="https://avatars.githubusercontent.com/u/53970796?v=4" width="100;" alt="SuryenduB"/>
+                    <br />
+                    <sub><b>Suryendu Bhattacharyya</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/dominikjaro">
                     <img src="https://avatars.githubusercontent.com/u/158752660?v=4" width="100;" alt="dominikjaro"/>
                     <br />
@@ -93,6 +100,8 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Damien Burks</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/Sushant1209">
                     <img src="https://avatars.githubusercontent.com/u/92586894?v=4" width="100;" alt="Sushant1209"/>
@@ -100,8 +109,6 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Sushant Bagul</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/vikramnayyarcs">
                     <img src="https://avatars.githubusercontent.com/u/66060875?v=4" width="100;" alt="vikramnayyarcs"/>
