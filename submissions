@@ -1,10 +1,6 @@
-**Name**: Ifeanyi Achobandu
-**Github Repo URL**: https://github.com/Achobandu/resumeAPI
-**Resume API URL**: https://rcn2ynee74.execute-api.us-east-1.amazonaws.com/resume-test/resume
+Name: Ifeanyi Achobandu
+Github Repo URL: https://github.com/Achobandu/resumeAPI
+Resume API URL: https://rcn2ynee74.execute-api.us-east-1.amazonaws.com/resume-test/resume
+S3 URL: s3://resumestaticweb/index.html
 
-## Summary
-- I created a table in DynamoDB
-- I then created a lambda function to get the JSON resume from the table
-- I created a RESt API using API Gateway and integrated it with the Lambda function.
-- As an extra, I created a Frontend to stylize the API from the API URL.
-- I then created a CI/CD pipeline using Github Actions to keep my codes up to date
+
