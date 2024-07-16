@@ -103,6 +103,13 @@ Thank you to everyone who decides to participate. Community challenges like this
 		</tr>
 		<tr>
             <td align="center">
+                <a href="https://github.com/meghanasaivattikuti">
+                    <img src="https://avatars.githubusercontent.com/u/114627429?v=4" width="100;" alt="meghanasaivattikuti"/>
+                    <br />
+                    <sub><b>meghanasaivattikuti</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/Sushant1209">
                     <img src="https://avatars.githubusercontent.com/u/92586894?v=4" width="100;" alt="Sushant1209"/>
                     <br />
@@ -130,6 +137,15 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Wenjie Poh</b></sub>
                 </a>
             </td>
+            <td align="center">
+                <a href="https://github.com/rohit1101">
+                    <img src="https://avatars.githubusercontent.com/u/37110560?v=4" width="100;" alt="rohit1101"/>
+                    <br />
+                    <sub><b>rohit1101</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/TomiwaAribisala-git">
                     <img src="https://avatars.githubusercontent.com/u/109365443?v=4" width="100;" alt="TomiwaAribisala-git"/>
