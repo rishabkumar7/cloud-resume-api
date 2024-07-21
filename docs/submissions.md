@@ -16,6 +16,7 @@ This is the place to add your own Cloud Resume API project!
 | Rohit S | https://6gbptkzmz3.execute-api.us-east-1.amazonaws.com/resume | https://github.com/rohit1101/Cloud-Resume-Api- |
 | Meghana Sai Vattikuti | https://alo9hsw5e2.execute-api.us-east-1.amazonaws.com/prod/resume?id=1 | https://github.com/meghanasaivattikuti/cloud-api
 | Ojo Samuel | https://sx60706aef.execute-api.us-east-1.amazonaws.com/dev/data | https://github.com/Samuel7050/AWS_RESUME_CHALLENGE.git |
+| Toyyib Muhammad-Jamiu | https://zu27je734ldpvy2kic6h57wqy40agiuu.lambda-url.us-east-1.on.aws/  | https://github.com/Abunuman/Abunuman-AWS-Cloud-Resume-API-Challenge |
 | George Wettlaufer | https://ry5dzf3ztf.execute-api.us-east-1.amazonaws.com/prod/cloud-resume | https://github.com/loggerboy9325/cloud-resume-api |
 
 ## Azure
