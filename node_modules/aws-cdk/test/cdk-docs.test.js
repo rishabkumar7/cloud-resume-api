@@ -1,0 +1,27 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const child_process = require("child_process");
+const jest_mock_1 = require("jest-mock");
+const docs_1 = require("../lib/commands/docs");
+const argv = {
+    browser: 'echo %u',
+    commandHandler: undefined,
+};
+// eslint-disable-next-line no-console
+console.log = jest.fn();
+jest.mock('child_process');
+describe('`cdk docs`', () => {
+    test('exits with 0 when everything is OK', async () => {
+        const mockChildProcessExec = (_, cb) => cb();
+        (0, jest_mock_1.mocked)(child_process.exec).mockImplementation(mockChildProcessExec);
+        const result = await (0, docs_1.realHandler)({ args: argv });
+        expect(result).toBe(0);
+    });
+    test('exits with 0 when opening the browser fails', async () => {
+        const mockChildProcessExec = (_, cb) => cb(new Error('TEST'));
+        (0, jest_mock_1.mocked)(child_process.exec).mockImplementation(mockChildProcessExec);
+        const result = await (0, docs_1.realHandler)({ args: argv });
+        expect(result).toBe(0);
+    });
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2RrLWRvY3MudGVzdC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbImNkay1kb2NzLnRlc3QudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSwrQ0FBK0M7QUFDL0MseUNBQW1DO0FBRW5DLCtDQUFtRDtBQUNuRCxNQUFNLElBQUksR0FBRztJQUNYLE9BQU8sRUFBRSxTQUFTO0lBQ2xCLGNBQWMsRUFBRSxTQUF5QztDQUMxRCxDQUFDO0FBRUYsc0NBQXNDO0FBQ3RDLE9BQU8sQ0FBQyxHQUFHLEdBQUcsSUFBSSxDQUFDLEVBQUUsRUFBRSxDQUFDO0FBQ3hCLElBQUksQ0FBQyxJQUFJLENBQUMsZUFBZSxDQUFDLENBQUM7QUFFM0IsUUFBUSxDQUFDLFlBQVksRUFBRSxHQUFHLEVBQUU7SUFFMUIsSUFBSSxDQUFDLG9DQUFvQyxFQUFFLEtBQUssSUFBSSxFQUFFO1FBQ3BELE1BQU0sb0JBQW9CLEdBQVEsQ0FBQyxDQUFTLEVBQUUsRUFBMkQsRUFBRSxFQUFFLENBQUMsRUFBRSxFQUFFLENBQUM7UUFDbkgsSUFBQSxrQkFBTSxFQUFDLGFBQWEsQ0FBQyxJQUFJLENBQUMsQ0FBQyxrQkFBa0IsQ0FBQyxvQkFBb0IsQ0FBQyxDQUFDO1FBRXBFLE1BQU0sTUFBTSxHQUFHLE1BQU0sSUFBQSxrQkFBVyxFQUFDLEVBQUUsSUFBSSxFQUFFLElBQUksRUFBUyxDQUFDLENBQUM7UUFDeEQsTUFBTSxDQUFDLE1BQU0sQ0FBQyxDQUFDLElBQUksQ0FBQyxDQUFDLENBQUMsQ0FBQztJQUN6QixDQUFDLENBQUMsQ0FBQztJQUVILElBQUksQ0FBQyw2Q0FBNkMsRUFBRSxLQUFLLElBQUksRUFBRTtRQUM3RCxNQUFNLG9CQUFvQixHQUFRLENBQUMsQ0FBUyxFQUFFLEVBQTBELEVBQUUsRUFBRSxDQUFDLEVBQUUsQ0FBQyxJQUFJLEtBQUssQ0FBQyxNQUFNLENBQUMsQ0FBQyxDQUFDO1FBQ25JLElBQUEsa0JBQU0sRUFBQyxhQUFhLENBQUMsSUFBSSxDQUFDLENBQUMsa0JBQWtCLENBQUMsb0JBQW9CLENBQUMsQ0FBQztRQUVwRSxNQUFNLE1BQU0sR0FBRyxNQUFNLElBQUEsa0JBQVcsRUFBQyxFQUFFLElBQUksRUFBRSxJQUFJLEVBQVMsQ0FBQyxDQUFDO1FBQ3hELE1BQU0sQ0FBQyxNQUFNLENBQUMsQ0FBQyxJQUFJLENBQUMsQ0FBQyxDQUFDLENBQUM7SUFDekIsQ0FBQyxDQUFDLENBQUM7QUFDTCxDQUFDLENBQUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAqIGFzIGNoaWxkX3Byb2Nlc3MgZnJvbSAnY2hpbGRfcHJvY2Vzcyc7XG5pbXBvcnQgeyBtb2NrZWQgfSBmcm9tICdqZXN0LW1vY2snO1xuaW1wb3J0IHsgQ29tbWFuZEhhbmRsZXIgfSBmcm9tICcuLi9saWIvY29tbWFuZC1hcGknO1xuaW1wb3J0IHsgcmVhbEhhbmRsZXIgfSBmcm9tICcuLi9saWIvY29tbWFuZHMvZG9jcyc7XG5jb25zdCBhcmd2ID0ge1xuICBicm93c2VyOiAnZWNobyAldScsXG4gIGNvbW1hbmRIYW5kbGVyOiB1bmRlZmluZWQgYXMgKENvbW1hbmRIYW5kbGVyIHwgdW5kZWZpbmVkKSxcbn07XG5cbi8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBuby1jb25zb2xlXG5jb25zb2xlLmxvZyA9IGplc3QuZm4oKTtcbmplc3QubW9jaygnY2hpbGRfcHJvY2VzcycpO1xuXG5kZXNjcmliZSgnYGNkayBkb2NzYCcsICgpID0+IHtcblxuICB0ZXN0KCdleGl0cyB3aXRoIDAgd2hlbiBldmVyeXRoaW5nIGlzIE9LJywgYXN5bmMgKCkgPT4ge1xuICAgIGNvbnN0IG1vY2tDaGlsZFByb2Nlc3NFeGVjOiBhbnkgPSAoXzogc3RyaW5nLCBjYjogKGVycj86IEVycm9yLCBzdGRvdXQ/OiBzdHJpbmcsIHN0ZGVycj86IHN0cmluZykgPT4gdm9pZCkgPT4gY2IoKTtcbiAgICBtb2NrZWQoY2hpbGRfcHJvY2Vzcy5leGVjKS5tb2NrSW1wbGVtZW50YXRpb24obW9ja0NoaWxkUHJvY2Vzc0V4ZWMpO1xuXG4gICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcmVhbEhhbmRsZXIoeyBhcmdzOiBhcmd2IH0gYXMgYW55KTtcbiAgICBleHBlY3QocmVzdWx0KS50b0JlKDApO1xuICB9KTtcblxuICB0ZXN0KCdleGl0cyB3aXRoIDAgd2hlbiBvcGVuaW5nIHRoZSBicm93c2VyIGZhaWxzJywgYXN5bmMgKCkgPT4ge1xuICAgIGNvbnN0IG1vY2tDaGlsZFByb2Nlc3NFeGVjOiBhbnkgPSAoXzogc3RyaW5nLCBjYjogKGVycjogRXJyb3IsIHN0ZG91dD86IHN0cmluZywgc3RkZXJyPzogc3RyaW5nKSA9PiB2b2lkKSA9PiBjYihuZXcgRXJyb3IoJ1RFU1QnKSk7XG4gICAgbW9ja2VkKGNoaWxkX3Byb2Nlc3MuZXhlYykubW9ja0ltcGxlbWVudGF0aW9uKG1vY2tDaGlsZFByb2Nlc3NFeGVjKTtcblxuICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHJlYWxIYW5kbGVyKHsgYXJnczogYXJndiB9IGFzIGFueSk7XG4gICAgZXhwZWN0KHJlc3VsdCkudG9CZSgwKTtcbiAgfSk7XG59KTtcbiJdfQ==

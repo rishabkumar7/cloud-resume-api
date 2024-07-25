@@ -1,0 +1,218 @@
+import { Construct } from 'constructs';
+import { IComputeEnvironment } from './compute-environment-base';
+import { ISchedulingPolicy } from './scheduling-policy';
+import { Duration, IResource, Resource } from '../../core';
+/**
+ * Represents a JobQueue
+ */
+export interface IJobQueue extends IResource {
+    /**
+     * The name of the job queue. It can be up to 128 letters long.
+     * It can contain uppercase and lowercase letters, numbers, hyphens (-), and underscores (_)
+     *
+     * @attribute
+     */
+    readonly jobQueueName: string;
+    /**
+     * The ARN of this job queue
+     *
+     * @attribute
+     */
+    readonly jobQueueArn: string;
+    /**
+     * The set of compute environments mapped to a job queue and their order relative to each other.
+     * The job scheduler uses this parameter to determine which compute environment runs a specific job.
+     * Compute environments must be in the VALID state before you can associate them with a job queue.
+     * You can associate up to three compute environments with a job queue.
+     * All of the compute environments must be either EC2 (EC2 or SPOT) or Fargate (FARGATE or FARGATE_SPOT);
+     * EC2 and Fargate compute environments can't be mixed.
+     *
+     * *Note*: All compute environments that are associated with a job queue must share the same architecture.
+     * AWS Batch doesn't support mixing compute environment architecture types in a single job queue.
+     */
+    readonly computeEnvironments: OrderedComputeEnvironment[];
+    /**
+     * The priority of the job queue.
+     * Job queues with a higher priority are evaluated first when associated with the same compute environment.
+     * Priority is determined in descending order.
+     * For example, a job queue with a priority value of 10 is given scheduling preference over a job queue with a priority value of 1.
+     */
+    readonly priority: number;
+    /**
+     * If the job queue is enabled, it is able to accept jobs.
+     * Otherwise, new jobs can't be added to the queue, but jobs already in the queue can finish.
+     *
+     * @default true
+     */
+    readonly enabled?: boolean;
+    /**
+     * The SchedulingPolicy for this JobQueue. Instructs the Scheduler how to schedule different jobs.
+     *
+     * @default - no scheduling policy
+     */
+    readonly schedulingPolicy?: ISchedulingPolicy;
+    /**
+     * Add a `ComputeEnvironment` to this Queue.
+     * The Queue will prefer lower-order `ComputeEnvironment`s.
+     */
+    addComputeEnvironment(computeEnvironment: IComputeEnvironment, order: number): void;
+}
+/**
+ * Props to configure a JobQueue
+ */
+export interface JobQueueProps {
+    /**
+     * The set of compute environments mapped to a job queue and their order relative to each other.
+     * The job scheduler uses this parameter to determine which compute environment runs a specific job.
+     * Compute environments must be in the VALID state before you can associate them with a job queue.
+     * You can associate up to three compute environments with a job queue.
+     * All of the compute environments must be either EC2 (EC2 or SPOT) or Fargate (FARGATE or FARGATE_SPOT);
+     * EC2 and Fargate compute environments can't be mixed.
+     *
+     * *Note*: All compute environments that are associated with a job queue must share the same architecture.
+     * AWS Batch doesn't support mixing compute environment architecture types in a single job queue.
+     *
+     * @default none
+     */
+    readonly computeEnvironments?: OrderedComputeEnvironment[];
+    /**
+     * The priority of the job queue.
+     * Job queues with a higher priority are evaluated first when associated with the same compute environment.
+     * Priority is determined in descending order.
+     * For example, a job queue with a priority of 10 is given scheduling preference over a job queue with a priority of 1.
+     *
+     * @default 1
+     */
+    readonly priority?: number;
+    /**
+     * The name of the job queue. It can be up to 128 letters long.
+     * It can contain uppercase and lowercase letters, numbers, hyphens (-), and underscores (_)
+     *
+     * @default - no name
+     */
+    readonly jobQueueName?: string;
+    /**
+     * If the job queue is enabled, it is able to accept jobs.
+     * Otherwise, new jobs can't be added to the queue, but jobs already in the queue can finish.
+     *
+     * @default true
+     */
+    readonly enabled?: boolean;
+    /**
+     * The SchedulingPolicy for this JobQueue. Instructs the Scheduler how to schedule different jobs.
+     *
+     * @default - no scheduling policy
+     */
+    readonly schedulingPolicy?: ISchedulingPolicy;
+    /**
+     * The set of actions that AWS Batch perform on jobs that remain at the head of the job queue in
+     * the specified state longer than specified times.
+     *
+     * @default - no actions
+     */
+    readonly jobStateTimeLimitActions?: JobStateTimeLimitAction[];
+}
+/**
+ * Assigns an order to a ComputeEnvironment.
+ * The JobQueue will prioritize the lowest-order ComputeEnvironment.
+ */
+export interface OrderedComputeEnvironment {
+    /**
+     * The ComputeEnvironment to link to this JobQueue
+     */
+    readonly computeEnvironment: IComputeEnvironment;
+    /**
+     * The order associated with `computeEnvironment`
+     */
+    readonly order: number;
+}
+/**
+ * Specifies an action that AWS Batch will take after the job has remained at
+ * the head of the queue in the specified state for longer than the specified time.
+ */
+export interface JobStateTimeLimitAction {
+    /**
+     * The action to take when a job is at the head of the job queue in the specified state
+     * for the specified period of time.
+     *
+     * @default JobStateTimeLimitActionsAction.CANCEL
+     */
+    readonly action?: JobStateTimeLimitActionsAction;
+    /**
+     * The approximate amount of time, that must pass with the job in the specified
+     * state before the action is taken.
+     *
+     * The minimum value is 10 minutes and the maximum value is 24 hours.
+     */
+    readonly maxTime: Duration;
+    /**
+     * The reason to log for the action being taken.
+     *
+     * @see https://docs.aws.amazon.com/batch/latest/userguide/troubleshooting.html#job_stuck_in_runnable
+     */
+    readonly reason: JobStateTimeLimitActionsReason;
+    /**
+     * The state of the job needed to trigger the action.
+     *
+     * @default JobStateTimeLimitActionsState.RUNNABLE
+     */
+    readonly state?: JobStateTimeLimitActionsState;
+}
+/**
+ * The action to take when a job is at the head of the job queue in the specified state
+ * for the specified period of time.
+ */
+export declare enum JobStateTimeLimitActionsAction {
+    /**
+     * Cancel the job.
+     */
+    CANCEL = "CANCEL"
+}
+/**
+ * The reason to log for the action being taken.
+ *
+ * @see https://docs.aws.amazon.com/batch/latest/userguide/troubleshooting.html#job_stuck_in_runnable
+ */
+export declare enum JobStateTimeLimitActionsReason {
+    /**
+     * All connected compute environments have insufficient capacity errors.
+     */
+    INSUFFICIENT_INSTANCE_CAPACITY = "CAPACITY:INSUFFICIENT_INSTANCE_CAPACITY",
+    /**
+     * All compute environments have a maxvCpus parameter that is smaller than the job requirements.
+     */
+    COMPUTE_ENVIRONMENT_MAX_RESOURCE = "MISCONFIGURATION:COMPUTE_ENVIRONMENT_MAX_RESOURCE",
+    /**
+     * None of the compute environments have instances that meet the job requirements.
+     */
+    JOB_RESOURCE_REQUIREMENT = "MISCONFIGURATION:JOB_RESOURCE_REQUIREMENT"
+}
+/**
+ * The state of the job needed to trigger the action.
+ */
+export declare enum JobStateTimeLimitActionsState {
+    /**
+     * RUNNABLE state triggers the action.
+     */
+    RUNNABLE = "RUNNABLE"
+}
+/**
+ * JobQueues can receive Jobs, which are removed from the queue when
+ * sent to the linked ComputeEnvironment(s) to be executed.
+ * Jobs exit the queue in FIFO order unless a `SchedulingPolicy` is linked.
+ */
+export declare class JobQueue extends Resource implements IJobQueue {
+    /**
+     * refer to an existing JobQueue by its arn
+     */
+    static fromJobQueueArn(scope: Construct, id: string, jobQueueArn: string): IJobQueue;
+    readonly computeEnvironments: OrderedComputeEnvironment[];
+    readonly priority: number;
+    readonly enabled?: boolean;
+    readonly schedulingPolicy?: ISchedulingPolicy;
+    readonly jobQueueArn: string;
+    readonly jobQueueName: string;
+    constructor(scope: Construct, id: string, props?: JobQueueProps);
+    addComputeEnvironment(computeEnvironment: IComputeEnvironment, order: number): void;
+    private renderJobStateTimeLimitActions;
+}

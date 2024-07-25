@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.CDKP_DEFAULT_CODEBUILD_IMAGE=void 0;var aws_codebuild_1=()=>{var tmp=require("../../../aws-codebuild");return aws_codebuild_1=()=>tmp,tmp};exports.CDKP_DEFAULT_CODEBUILD_IMAGE=aws_codebuild_1().LinuxBuildImage.STANDARD_7_0;

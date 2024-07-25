@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.INLINE_CUSTOM_RESOURCE_CONTEXT=void 0,exports.INLINE_CUSTOM_RESOURCE_CONTEXT="@aws-cdk/core:inlineCustomResourceIfPossible";

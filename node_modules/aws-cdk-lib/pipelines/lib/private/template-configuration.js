@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.writeTemplateConfiguration=void 0;var fs=()=>{var tmp=require("fs");return fs=()=>tmp,tmp};function writeTemplateConfiguration(filename,config){fs().writeFileSync(filename,JSON.stringify(config,void 0,2),{encoding:"utf-8"})}exports.writeTemplateConfiguration=writeTemplateConfiguration;
