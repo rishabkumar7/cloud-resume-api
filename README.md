@@ -80,6 +80,13 @@ Thank you to everyone who decides to participate. Community challenges like this
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/Anandhakrishnan27">
+                    <img src="https://avatars.githubusercontent.com/u/54732265?v=4" width="100;" alt="Anandhakrishnan27"/>
+                    <br />
+                    <sub><b>Anandhakrishnan</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/dominikjaro">
                     <img src="https://avatars.githubusercontent.com/u/158752660?v=4" width="100;" alt="dominikjaro"/>
                     <br />
@@ -93,6 +100,8 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Hein Htet Win</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/JQCVSC">
                     <img src="https://avatars.githubusercontent.com/u/65506340?v=4" width="100;" alt="JQCVSC"/>
@@ -100,8 +109,6 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>JQCVSC</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/MeriemTerki">
                     <img src="https://avatars.githubusercontent.com/u/90655708?v=4" width="100;" alt="MeriemTerki"/>
@@ -137,6 +144,8 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Wenjie Poh</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/nielvid">
                     <img src="https://avatars.githubusercontent.com/u/56310246?v=4" width="100;" alt="nielvid"/>
@@ -144,8 +153,6 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Nielvid</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/jv199768">
                     <img src="https://avatars.githubusercontent.com/u/154536624?v=4" width="100;" alt="jv199768"/>
@@ -181,20 +188,13 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>George Wettlaufer</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/damienjburks">
                     <img src="https://avatars.githubusercontent.com/u/20100558?v=4" width="100;" alt="damienjburks"/>
                     <br />
                     <sub><b>Damien Burks</b></sub>
-                </a>
-            </td>
-		</tr>
-		<tr>
-            <td align="center">
-                <a href="https://github.com/Anandhakrishnan27">
-                    <img src="https://avatars.githubusercontent.com/u/54732265?v=4" width="100;" alt="Anandhakrishnan27"/>
-                    <br />
-                    <sub><b>Anandhakrishnan</b></sub>
                 </a>
             </td>
 		</tr>
