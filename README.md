@@ -197,8 +197,6 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Damien Burks</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/Jekwulum">
                     <img src="https://avatars.githubusercontent.com/u/51790166?v=4" width="100;" alt="Jekwulum"/>
