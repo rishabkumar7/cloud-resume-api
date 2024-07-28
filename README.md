@@ -182,14 +182,21 @@ Thank you to everyone who decides to participate. Community challenges like this
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/hamitsehjal">
+                    <img src="https://avatars.githubusercontent.com/u/73131093?v=4" width="100;" alt="hamitsehjal"/>
+                    <br />
+                    <sub><b>Hamit Sehjal</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
                 <a href="https://github.com/loggerboy9325">
                     <img src="https://avatars.githubusercontent.com/u/101529495?v=4" width="100;" alt="loggerboy9325"/>
                     <br />
                     <sub><b>George Wettlaufer</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/damienjburks">
                     <img src="https://avatars.githubusercontent.com/u/20100558?v=4" width="100;" alt="damienjburks"/>
