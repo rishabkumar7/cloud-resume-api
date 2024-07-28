@@ -1,0 +1,52 @@
+site_name: Cloud Resume API Challenge
+
+theme:
+  name: material
+  # Fonts
+
+  font:
+    text: Roboto
+  
+  favicon: assets/images/cloud-resume-api-favicon.ico
+  
+  features:
+    - toc.follow
+    - navigation.footer
+
+  # icons
+  icon:
+    logo: material/apple-icloud
+    repo: fontawesome/brands/git-alt 
+  
+  palette:
+    #- primary: indigo
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+# Repo details
+repo_url: https://github.com/rishabkumar7/cloud-resume-api
+repo_name: rishabkumar7/cloud-resume-api
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/rishabkumar7
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/rishabincloud
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@rishabincloud
+
+copyright: Copyright &copy; 2023 - 2024 Rishab Kumar
+
+# Plugins
