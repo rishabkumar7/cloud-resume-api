@@ -66,6 +66,13 @@ Thank you to everyone who decides to participate. Community challenges like this
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/DevABM">
+                    <img src="https://avatars.githubusercontent.com/u/100310286?v=4" width="100;" alt="DevABM"/>
+                    <br />
+                    <sub><b>Amudha Balamurugan</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/SuryenduB">
                     <img src="https://avatars.githubusercontent.com/u/53970796?v=4" width="100;" alt="SuryenduB"/>
                     <br />
@@ -93,6 +100,8 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>JQCVSC</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/heinhtetwin">
                     <img src="https://avatars.githubusercontent.com/u/48096774?v=4" width="100;" alt="heinhtetwin"/>
@@ -100,8 +109,6 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Hein Htet Win</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/dominikjaro">
                     <img src="https://avatars.githubusercontent.com/u/158752660?v=4" width="100;" alt="dominikjaro"/>
@@ -137,6 +144,8 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Tomiwa </b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/rohit1101">
                     <img src="https://avatars.githubusercontent.com/u/37110560?v=4" width="100;" alt="rohit1101"/>
@@ -144,8 +153,6 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>rohit1101</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/pohwj">
                     <img src="https://avatars.githubusercontent.com/u/118417467?v=4" width="100;" alt="pohwj"/>
@@ -181,6 +188,8 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Sushant Bagul</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/meghanasaivattikuti">
                     <img src="https://avatars.githubusercontent.com/u/114627429?v=4" width="100;" alt="meghanasaivattikuti"/>
@@ -188,8 +197,6 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>meghanasaivattikuti</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/hamitsehjal">
                     <img src="https://avatars.githubusercontent.com/u/73131093?v=4" width="100;" alt="hamitsehjal"/>
