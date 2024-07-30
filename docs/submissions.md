@@ -23,6 +23,7 @@ This is the place to add your own Cloud Resume API project!
 | Zablon Oigo | https://tuipma3603.execute-api.eu-north-1.amazonaws.com/prod | https://github.com/zablon-oigo/cloud-resume-api |
 | Amudha Balamurugan | https://abtxuab67i.execute-api.us-east-1.amazonaws.com/prod/ResumeFunction | https://github.com/DevABM/Cloud-Resume-API-Challenge  |
 | Emmanuel Nyame Cromwell | https://i7jablu12l.execute-api.eu-west-1.amazonaws.com/dev/resume | https://github.com/P-Crommie/resume-api |
+| Sylvia Waweru | https://d3ad7vp77b.execute-api.us-west-2.amazonaws.com/dev-stage/ | https://github.com/karungar/Cloud-Resume-API- |
 
 
 ## Azure
@@ -32,7 +33,8 @@ This is the place to add your own Cloud Resume API project!
 | CityHallin    | https://api.cityhallin.com/v1/resume?name=cityhallin                                                                     | https://github.com/CityHallin/cloud_resume_api_challenge |
 | Sushant Bagul | https://sushantresumeapi.azurewebsites.net/resumeapi?id=1                                                                | https://github.com/Sushant1209/Azure-Resume-API-Challenge |
 | Charles Nwoye | [https://jkcloudresumeapi.azurewebsites.net/api/resume?id=1](https://jkcloudresumeapi.azurewebsites.net/api/resume?id=1) | [https://github.com/Jekwulum/cloud-resume-api.git](https://github.com/Jekwulum/cloud-resume-api.git) |
-| Hamit Sehjal  | https://resume26hamitfunc.azurewebsites.net/hamitsehjal                                                                  | https://github.com/hamitsehjal/Serverless-Cloud-Resume|
+| Hamit Sehjal  | https://resume26hamitfunc.azurewebsites.net/hamitsehjal                                                                  | https://github.com/hamitsehjal/Serverless-Cloud-Resume |
+
 ## GCP
 
 | Name         | Resume API URL | GitHub Repo |
