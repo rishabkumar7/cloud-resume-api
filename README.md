@@ -31,7 +31,7 @@ Once you're ready to submit your project, you can create a pull request to this 
 Add your name, github repo URL and the resume API URL to the table in `submissions.md` file.
 In your pull request, provide a summary of what you've done and any additional features or functionalities you've added.
 
-All the submission can be found [here](/submissions).
+All the submission can be found [here](docs/submissions.md).
 
 ## Acknowledgements 👏
 
