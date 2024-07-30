@@ -23,6 +23,7 @@ This is the place to add your own Cloud Resume API project!
 | Zablon Oigo | https://tuipma3603.execute-api.eu-north-1.amazonaws.com/prod | https://github.com/zablon-oigo/cloud-resume-api |
 | Amudha Balamurugan | https://abtxuab67i.execute-api.us-east-1.amazonaws.com/prod/ResumeFunction | https://github.com/DevABM/Cloud-Resume-API-Challenge  |
 | Emmanuel Nyame Cromwell | https://i7jablu12l.execute-api.eu-west-1.amazonaws.com/dev/resume | https://github.com/P-Crommie/resume-api |
+| Raunak Bhargava | https://bwb471csz6.execute-api.ca-central-1.amazonaws.com/test/data?resumeId=RaunakBhargava | https://github.com/raunakghost99/GetResume_Json_Lazy_Hr
 
 
 ## Azure
