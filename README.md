@@ -236,7 +236,7 @@ Thank you to everyone who decides to participate. Community challenges like this
         <tr>
          <td align="center">
                 <a href="https://github.com/hibachouchou/">
-                    <img src="https://avatars.githubusercontent.com/u/51790166?v=4" width="100;" alt="Jekwulum"/>
+                    <img src="https://avatars.githubusercontent.com/u/91759254?v=4" width="100;" alt="Jekwulum"/>
                     <br />
                     <sub><b>Hiba Chouchene</b></sub>
                 </a>
