@@ -24,7 +24,7 @@ This is the place to add your own Cloud Resume API project!
 | Amudha Balamurugan | https://abtxuab67i.execute-api.us-east-1.amazonaws.com/prod/ResumeFunction | https://github.com/DevABM/Cloud-Resume-API-Challenge  |
 | Emmanuel Nyame Cromwell | https://i7jablu12l.execute-api.eu-west-1.amazonaws.com/dev/resume | https://github.com/P-Crommie/resume-api |
 | Sylvia Waweru | https://d3ad7vp77b.execute-api.us-west-2.amazonaws.com/dev-stage/ | https://github.com/karungar/Cloud-Resume-API- |
-| Hiba Chouchene | 🧷 Blog : https://medium.com/aws-tip/the-cloud-resume-challenge-aws-92868a7e0d54 | 🌟 GitHub Repo : https://github.com/hibachouchou/AWS-Small-Projects/tree/main/The%20Cloud%20Resume%20Challenge| 🎀 Project Link : https://cloud-challenge-resume.cloud/
+| Hiba Chouchene | 🧷 Blog : https://medium.com/aws-tip/the-cloud-resume-challenge-aws-92868a7e0d54 / 🎀 Project Link : https://cloud-challenge-resume.cloud/ | 🌟 GitHub Repo : https://github.com/hibachouchou/AWS-Small-Projects/tree/main/The%20Cloud%20Resume%20Challenge| 
 
 
 ## Azure
