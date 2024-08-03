@@ -23,7 +23,7 @@ This is the place to add your own Cloud Resume API project!
 | Zablon Oigo | https://tuipma3603.execute-api.eu-north-1.amazonaws.com/prod | https://github.com/zablon-oigo/cloud-resume-api |
 | Amudha Balamurugan | https://abtxuab67i.execute-api.us-east-1.amazonaws.com/prod/ResumeFunction | https://github.com/DevABM/Cloud-Resume-API-Challenge  |
 | Emmanuel Nyame Cromwell | https://i7jablu12l.execute-api.eu-west-1.amazonaws.com/dev/resume | https://github.com/P-Crommie/resume-api |
-| Sylvia Waweru | https://d3ad7vp77b.execute-api.us-west-2.amazonaws.com/dev-stage/ | https://github.com/karungar/Cloud-Resume-API- |
+| Sylvia Waweru | https://d3ad7vp77b.execute-api.us-west-2.amazonaws.com/dev-stage/ | https://github.com/karungar/Cloud-Resume-API- | Ssali Isaac |  https://t7em9zzti0.execute-api.us-east-1.amazonaws.com/prod/Resumes | https://github.com/Issali58/cloud-projects.git |
 
 
 ## Azure
