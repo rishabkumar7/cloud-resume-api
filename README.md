@@ -31,7 +31,7 @@ Once you're ready to submit your project, you can create a pull request to this 
 Add your name, github repo URL and the resume API URL to the table in `submissions.md` file.
 In your pull request, provide a summary of what you've done and any additional features or functionalities you've added.
 
-All the submission can be found [here](/submissions).
+All the submission can be found [here](docs/submissions.md).
 
 ## Acknowledgements 👏
 
@@ -87,12 +87,21 @@ Thank you to everyone who decides to participate. Community challenges like this
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/EoWanjala">
+                    <img src="https://avatars.githubusercontent.com/u/111036656?v=4" width="100;" alt="EoWanjala"/>
+                    <br />
+                    <sub><b>Eric Wanjala</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/MeriemTerki">
                     <img src="https://avatars.githubusercontent.com/u/90655708?v=4" width="100;" alt="MeriemTerki"/>
                     <br />
                     <sub><b>Meriem Terki</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/JQCVSC">
                     <img src="https://avatars.githubusercontent.com/u/65506340?v=4" width="100;" alt="JQCVSC"/>
@@ -100,8 +109,6 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>JQCVSC</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/heinhtetwin">
                     <img src="https://avatars.githubusercontent.com/u/48096774?v=4" width="100;" alt="heinhtetwin"/>
@@ -137,6 +144,8 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Zablon</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/TomiwaAribisala-git">
                     <img src="https://avatars.githubusercontent.com/u/109365443?v=4" width="100;" alt="TomiwaAribisala-git"/>
@@ -144,8 +153,6 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Tomiwa </b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/rohit1101">
                     <img src="https://avatars.githubusercontent.com/u/37110560?v=4" width="100;" alt="rohit1101"/>
@@ -181,6 +188,8 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Jaivir Baweja</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/vikramnayyarcs">
                     <img src="https://avatars.githubusercontent.com/u/66060875?v=4" width="100;" alt="vikramnayyarcs"/>
@@ -188,8 +197,6 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Vikram</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/Sushant1209">
                     <img src="https://avatars.githubusercontent.com/u/92586894?v=4" width="100;" alt="Sushant1209"/>
@@ -225,6 +232,8 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Damien Burks</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/Jekwulum">
                     <img src="https://avatars.githubusercontent.com/u/51790166?v=4" width="100;" alt="Jekwulum"/>
