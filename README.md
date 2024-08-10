@@ -31,7 +31,7 @@ Once you're ready to submit your project, you can create a pull request to this 
 Add your name, github repo URL and the resume API URL to the table in `submissions.md` file.
 In your pull request, provide a summary of what you've done and any additional features or functionalities you've added.
 
-All the submission can be found [here](/submissions).
+All the submission can be found [here](docs/submissions.md).
 
 ## Acknowledgements 👏
 
@@ -168,6 +168,13 @@ Thank you to everyone who decides to participate. Community challenges like this
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/karungar">
+                    <img src="https://avatars.githubusercontent.com/u/160833948?v=4" width="100;" alt="karungar"/>
+                    <br />
+                    <sub><b>karungar</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/jv199768">
                     <img src="https://avatars.githubusercontent.com/u/154536624?v=4" width="100;" alt="jv199768"/>
                     <br />
@@ -181,6 +188,8 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Vikram</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/Sushant1209">
                     <img src="https://avatars.githubusercontent.com/u/92586894?v=4" width="100;" alt="Sushant1209"/>
@@ -188,8 +197,6 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Sushant Bagul</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/meghanasaivattikuti">
                     <img src="https://avatars.githubusercontent.com/u/114627429?v=4" width="100;" alt="meghanasaivattikuti"/>
