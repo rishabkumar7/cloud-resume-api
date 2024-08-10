@@ -1,0 +1,39 @@
+name: Process and Update Submissions
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    
+    - name: List directory contents
+      run: |
+        ls -R
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run submission processing script
+      run: |
+        python docs/submissions.py
+    
+    - name: Commit changes
+      run: |
+        git add docs/submissions.md
+        git commit -m "Update submissions.md with processed links" || echo "No changes to commit"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
