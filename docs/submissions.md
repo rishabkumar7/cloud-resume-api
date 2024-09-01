@@ -31,6 +31,7 @@ This is the place to add your own Cloud Resume API project!
 | Raunak Bhargava | https://bwb471csz6.execute-api.ca-central-1.amazonaws.com/test/data?resumeId=RaunakBhargava | https://github.com/raunakghost99/GetResume_Json_Lazy_Hr |
 | Sheriff Joe | https://vkmm0lx8g3.execute-api.us-east-1.amazonaws.com/dev/resume-data | https://github.com/realexcel2021/cloud-resume-api-challenge |
 | Samuel Wanjuri | https://iqnycpfac4.execute-api.eu-north-1.amazonaws.com/dev/ | https://github.com/he-who-must-not-be-nam3d/Cloud-API-Resume-Challenge |
+| Rosemary Ojwang | https://d3viw2dbta.execute-api.us-east-1.amazonaws.com/dev/ | https://github.com/RosemaryOjwang/Cloud-Resume-API |
 
 ## Azure
 
