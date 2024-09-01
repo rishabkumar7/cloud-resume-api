@@ -80,6 +80,13 @@ Thank you to everyone who decides to participate. Community challenges like this
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/EoWanjala">
+                    <img src="https://avatars.githubusercontent.com/u/111036656?v=4" width="100;" alt="EoWanjala"/>
+                    <br />
+                    <sub><b>Eric Wanjala</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/Samuel7050">
                     <img src="https://avatars.githubusercontent.com/u/109923020?v=4" width="100;" alt="Samuel7050"/>
                     <br />
@@ -87,10 +94,19 @@ Thank you to everyone who decides to participate. Community challenges like this
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/EoWanjala">
-                    <img src="https://avatars.githubusercontent.com/u/111036656?v=4" width="100;" alt="EoWanjala"/>
+                <a href="https://github.com/Sushant1209">
+                    <img src="https://avatars.githubusercontent.com/u/92586894?v=4" width="100;" alt="Sushant1209"/>
                     <br />
-                    <sub><b>Eric Wanjala</b></sub>
+                    <sub><b>Sushant Bagul</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/realexcel2021">
+                    <img src="https://avatars.githubusercontent.com/u/89150996?v=4" width="100;" alt="realexcel2021"/>
+                    <br />
+                    <sub><b>Sheriff Joe</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -100,8 +116,6 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Meriem Terki</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/JQCVSC">
                     <img src="https://avatars.githubusercontent.com/u/65506340?v=4" width="100;" alt="JQCVSC"/>
@@ -130,6 +144,8 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Anandhakrishnan</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/Achobandu">
                     <img src="https://avatars.githubusercontent.com/u/25041986?v=4" width="100;" alt="Achobandu"/>
@@ -144,8 +160,13 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Muhammad-Jamiu Toyyib</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
+            <td align="center">
+                <a href="https://github.com/SurajKamal24">
+                    <img src="https://avatars.githubusercontent.com/u/33336374?v=4" width="100;" alt="SurajKamal24"/>
+                    <br />
+                    <sub><b>Suraj</b></sub>
+                </a>
+            </td>
             <td align="center">
                 <a href="https://github.com/Suzannestacks">
                     <img src="https://avatars.githubusercontent.com/u/100288218?v=4" width="100;" alt="Suzannestacks"/>
@@ -160,6 +181,15 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Vikram</b></sub>
                 </a>
             </td>
+            <td align="center">
+                <a href="https://github.com/he-who-must-not-be-nam3d">
+                    <img src="https://avatars.githubusercontent.com/u/153522610?v=4" width="100;" alt="he-who-must-not-be-nam3d"/>
+                    <br />
+                    <sub><b>he-who-must-not-be-nam3d</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/jv199768">
                     <img src="https://avatars.githubusercontent.com/u/154536624?v=4" width="100;" alt="jv199768"/>
@@ -188,8 +218,6 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Wenjie Poh</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/rohit1101">
                     <img src="https://avatars.githubusercontent.com/u/37110560?v=4" width="100;" alt="rohit1101"/>
@@ -204,6 +232,8 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Tomiwa </b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/zablon-oigo">
                     <img src="https://avatars.githubusercontent.com/u/143833326?v=4" width="100;" alt="zablon-oigo"/>
@@ -212,17 +242,17 @@ Thank you to everyone who decides to participate. Community challenges like this
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/Sushant1209">
-                    <img src="https://avatars.githubusercontent.com/u/92586894?v=4" width="100;" alt="Sushant1209"/>
+                <a href="https://github.com/RosemaryOjwang">
+                    <img src="https://avatars.githubusercontent.com/u/47894685?v=4" width="100;" alt="RosemaryOjwang"/>
                     <br />
-                    <sub><b>Sushant Bagul</b></sub>
+                    <sub><b>Rosemary Atieno Ojwang</b></sub>
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/SurajKamal24">
-                    <img src="https://avatars.githubusercontent.com/u/33336374?v=4" width="100;" alt="SurajKamal24"/>
+                <a href="https://github.com/Raunak-ghost">
+                    <img src="https://avatars.githubusercontent.com/u/24250429?v=4" width="100;" alt="Raunak-ghost"/>
                     <br />
-                    <sub><b>Suraj</b></sub>
+                    <sub><b>Raunak-ghost</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -232,8 +262,6 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>meghanasaivattikuti</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/celineMaina">
                     <img src="https://avatars.githubusercontent.com/u/146773816?v=4" width="100;" alt="celineMaina"/>
@@ -241,6 +269,15 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <sub><b>Meg</b></sub>
                 </a>
             </td>
+            <td align="center">
+                <a href="https://github.com/Simply-Lina">
+                    <img src="https://avatars.githubusercontent.com/u/160822788?v=4" width="100;" alt="Simply-Lina"/>
+                    <br />
+                    <sub><b>Kendi</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/hamitsehjal">
                     <img src="https://avatars.githubusercontent.com/u/73131093?v=4" width="100;" alt="hamitsehjal"/>
@@ -253,6 +290,13 @@ Thank you to everyone who decides to participate. Community challenges like this
                     <img src="https://avatars.githubusercontent.com/u/101529495?v=4" width="100;" alt="loggerboy9325"/>
                     <br />
                     <sub><b>George Wettlaufer</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Emmanuel1930">
+                    <img src="https://avatars.githubusercontent.com/u/169959668?v=4" width="100;" alt="Emmanuel1930"/>
+                    <br />
+                    <sub><b>Oyeniyi Emmanuel</b></sub>
                 </a>
             </td>
             <td align="center">
