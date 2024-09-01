@@ -226,21 +226,14 @@ Thank you to everyone who decides to participate. Community challenges like this
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/Raunak-ghost">
-                    <img src="https://avatars.githubusercontent.com/u/24250429?v=4" width="100;" alt="Raunak-ghost"/>
-                    <br />
-                    <sub><b>Raunak-ghost</b></sub>
-                </a>
-            </td>
-		</tr>
-		<tr>
-            <td align="center">
                 <a href="https://github.com/meghanasaivattikuti">
                     <img src="https://avatars.githubusercontent.com/u/114627429?v=4" width="100;" alt="meghanasaivattikuti"/>
                     <br />
                     <sub><b>meghanasaivattikuti</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/celineMaina">
                     <img src="https://avatars.githubusercontent.com/u/146773816?v=4" width="100;" alt="celineMaina"/>
