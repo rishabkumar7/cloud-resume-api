@@ -54,3 +54,4 @@ This is the place to add your own Cloud Resume API project!
 | Damien Burks | https://us-central1-dsb-innovation-hub.cloudfunctions.net/cloud-resume-api | https://github.com/damienjburks/cloud-resume-challenge |
 | Godson Chinonyerem | https://europe-west2-my-site-1473725610848.cloudfunctions.net/cloud-resume | https://github.com/nielvid/cloud-resume-challenge |
 | Suraj Kamal | https://34.107.250.32.nip.io/resume | https://github.com/SurajKamal24/gcp-cloud-resume-api |
+| Rohit S | https://us-central1-lively-encoder-427806-d3.cloudfunctions.net/cloud-resume | https://github.com/rohit1101/Cloud-Resume-Api- |
