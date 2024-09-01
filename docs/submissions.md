@@ -33,12 +33,12 @@ This is the place to add your own Cloud Resume API project!
 
 ## Azure
 
-| Name              | Resume API URL                                                                                                           | GitHub Repo |
-|------------------ |--------------------------------------------------------------------------------------------------------------------------| ----------- |
-| CityHallin        | https://api.cityhallin.com/v1/resume?name=cityhallin                                                                     | https://github.com/CityHallin/cloud_resume_api_challenge |
-| Sushant Bagul     | https://sushantresumeapi.azurewebsites.net/resumeapi?id=1                                                                | https://github.com/Sushant1209/Azure-Resume-API-Challenge |
-| Charles Nwoye     | [https://jkcloudresumeapi.azurewebsites.net/api/resume?id=1](https://jkcloudresumeapi.azurewebsites.net/api/resume?id=1) | [https://github.com/Jekwulum/cloud-resume-api.git](https://github.com/Jekwulum/cloud-resume-api.git) |
-| Hamit Sehjal      | https://resume26hamitfunc.azurewebsites.net/hamitsehjal                                                                  | https://github.com/hamitsehjal/Serverless-Cloud-Resume |
+| Name          | Resume API URL                                                                                                           | GitHub Repo |
+|---------------|--------------------------------------------------------------------------------------------------------------------------| ----------- |
+| CityHallin    | https://api.cityhallin.com/v1/resume?name=cityhallin                                                                     | https://github.com/CityHallin/cloud_resume_api_challenge |
+| Sushant Bagul | https://sushantbagul.azurewebsites.net/resumeapi?id=1                                                                | https://github.com/Sushant1209/Azure-Resume-API-Challenge |
+| Charles Nwoye | [https://jkcloudresumeapi.azurewebsites.net/api/resume?id=1](https://jkcloudresumeapi.azurewebsites.net/api/resume?id=1) | [https://github.com/Jekwulum/cloud-resume-api.git](https://github.com/Jekwulum/cloud-resume-api.git) |
+| Hamit Sehjal  | https://resume26hamitfunc.azurewebsites.net/hamitsehjal                                                                  | https://github.com/hamitsehjal/Serverless-Cloud-Resume |
 | Oyeniyi Emmananuel| https://azureresumeapp.azurewebsites.net/api/getresumedata                                                               | https://github.com/Emmanuel1930/azure-resume-api |
 
 ## GCP
