@@ -19,6 +19,7 @@ This is the place to add your own Cloud Resume API project!
 | Toyyib Muhammad-Jamiu | https://zu27je734ldpvy2kic6h57wqy40agiuu.lambda-url.us-east-1.on.aws/  | https://github.com/Abunuman/Abunuman-AWS-Cloud-Resume-API-Challenge |
 | George Wettlaufer | https://ry5dzf3ztf.execute-api.us-east-1.amazonaws.com/prod/cloud-resume | https://github.com/loggerboy9325/cloud-resume-api |
 | Meriem Terki | https://lpn6ekqu21.execute-api.us-east-1.amazonaws.com/prod/resume | https://github.com/MeriemTerki/aws-cloud-resume-api |
+|Ifeanyi Achobandu | https://rcn2ynee74.execute-api.us-east-1.amazonaws.com/resume-test/resume | https://github.com/Achobandu/resumeAPI |
 |Anandha krishnan|https://jner4mrs02.execute-api.us-east-1.amazonaws.com/prod|https://github.com/Anandhakrishnan27/resumeApi|
 | Zablon Oigo | https://tuipma3603.execute-api.eu-north-1.amazonaws.com/prod | https://github.com/zablon-oigo/cloud-resume-api |
 | Amudha Balamurugan | https://abtxuab67i.execute-api.us-east-1.amazonaws.com/prod/ResumeFunction | https://github.com/DevABM/Cloud-Resume-API-Challenge  |
@@ -26,8 +27,9 @@ This is the place to add your own Cloud Resume API project!
 | Sylvia Waweru | https://d3ad7vp77b.execute-api.us-west-2.amazonaws.com/dev-stage/ | https://github.com/karungar/Cloud-Resume-API- |
 | Eric Wanjala | https://6e2pry5iad.execute-api.eu-north-1.amazonaws.com/wanjala | https://github.com/EoWanjala/aws-cloud-resume-API |
 | Meghan Maina | https://u7fdthk4r6.execute-api.eu-north-1.amazonaws.com/dev/| https://github.com/celineMaina/Cloud-Resume-API |
-| Susan Ngina| https://lfhrbjrd0b.execute-api.us-east-1.amazonaws.com/dev | https://github.com/Suzannestacks/   cloud-resume-API |
-
+| Susan Ngina| https://lfhrbjrd0b.execute-api.us-east-1.amazonaws.com/dev | https://github.com/Suzannestacks/cloud-resume-API |
+| Raunak Bhargava | https://bwb471csz6.execute-api.ca-central-1.amazonaws.com/test/data?resumeId=RaunakBhargava | https://github.com/raunakghost99/GetResume_Json_Lazy_Hr |
+| Sheriff Joe | https://vkmm0lx8g3.execute-api.us-east-1.amazonaws.com/dev/resume-data | https://github.com/realexcel2021/cloud-resume-api-challenge |
 
 ## Azure
 
@@ -37,6 +39,7 @@ This is the place to add your own Cloud Resume API project!
 | Sushant Bagul | https://sushantbagul.azurewebsites.net/resumeapi?id=1                                                                | https://github.com/Sushant1209/Azure-Resume-API-Challenge |
 | Charles Nwoye | [https://jkcloudresumeapi.azurewebsites.net/api/resume?id=1](https://jkcloudresumeapi.azurewebsites.net/api/resume?id=1) | [https://github.com/Jekwulum/cloud-resume-api.git](https://github.com/Jekwulum/cloud-resume-api.git) |
 | Hamit Sehjal  | https://resume26hamitfunc.azurewebsites.net/hamitsehjal                                                                  | https://github.com/hamitsehjal/Serverless-Cloud-Resume |
+| Oyeniyi Emmananuel| https://azureresumeapp.azurewebsites.net/api/getresumedata                                                               | https://github.com/Emmanuel1930/azure-resume-api |
 
 ## GCP
 
